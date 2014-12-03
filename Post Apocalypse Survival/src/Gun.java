@@ -3,9 +3,11 @@ public class Gun extends Weapons
 	{
 	public Gun()
 		{
+		super("This weapon makes a loud bang");
 		rare = "very scarse";
 		item = "Handgun";
 		amountOfSpace = "3 inventory spaces";
+		isBreakable = (Breakable) new CanBreak();
 		}
 
 	@Override

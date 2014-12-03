@@ -5,6 +5,7 @@ public class Game
 	static String name;
 	static boolean alive = true;
 	static int choice;
+
 	
 	public static void mainMenuRun()
 		{
@@ -38,6 +39,7 @@ public class Game
 			item[i].valuable();
 			item[i].effects();
 			item[i].canBeFound();
+			item[i].isBreakable.breaks();
 			
 			System.out.println();
 			}

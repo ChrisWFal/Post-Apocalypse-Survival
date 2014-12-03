@@ -6,6 +6,7 @@ public class RottenFood extends Food
 		rare = "common";
 		item = "Rotten food";
 		amountOfSpace = "1 inventory space";
+		isBreakable = (Breakable) new CannotBreak();
 		}
 
 	@Override

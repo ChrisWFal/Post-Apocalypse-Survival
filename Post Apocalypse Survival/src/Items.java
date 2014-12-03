@@ -4,6 +4,7 @@ public abstract class Items
 	protected String rare;
 	protected String item;
 	protected String amountOfSpace;
+	protected Breakable isBreakable;
 	
 	public void topic()
 		{

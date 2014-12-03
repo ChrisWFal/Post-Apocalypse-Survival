@@ -6,6 +6,7 @@ public class CannedFood extends Food
 		rare = "scarse";
 		item = "canned food";
 		amountOfSpace = "1 inventory space";
+		isBreakable = (Breakable) new CannotBreak();
 		}
 
 	@Override

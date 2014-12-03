@@ -3,9 +3,11 @@ public class Knife extends Weapons
 	{
 	public Knife()
 		{
+		super("This weapon makes no noise");
 		rare = "common";
 		item = "knife";
 		amountOfSpace = "1 inventory space";
+		isBreakable = (Breakable) new CanBreak();
 		}
 
 	@Override
